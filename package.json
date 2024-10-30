@@ -1,0 +1,20 @@
+{
+  "name": "telegram-of-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "messages": "tsx src/scrape-messages.ts",
+    "links": "tsx src/scrape-mega-links.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "puppeteer": "^22.10.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.11.0"
+  }
+}
